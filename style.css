@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://media.giphy.com/media/kg19fN5BXbZGIDznzG/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_container {
+    display: block;
+    margin: auto;
+}
+
+
+@media (max-width: 640px) {
+    img {
+        max-width: 80vw;
+        max-height: 90vh;
+    }
+}
